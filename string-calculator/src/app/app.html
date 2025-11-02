@@ -1,0 +1,11 @@
+<h1>
+  String Calculator
+</h1>
+<section>
+  <label>Enter string to calculate value</label>
+  <input type="text" id="string-input" [(ngModel)]="inputString"/>
+  <button (click)="buttonSubmit()">Calculate</button>
+</section>
+<section>
+  <p>{{ sumValue }}</p>
+</section>
